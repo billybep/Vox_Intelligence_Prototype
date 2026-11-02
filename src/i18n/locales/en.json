@@ -1,0 +1,112 @@
+{
+  "app": {
+    "name": "VoxAudit Intelligence",
+    "tagline": "Audit. Optimize. Grow.",
+    "sampleBanner": "Sample data — Cedar & Co. Dental · Amman & Fairfax"
+  },
+  "nav": {
+    "groups": {
+      "workspace":      "Workspace",
+      "intelligence":   "Intelligence",
+      "growth":         "Growth",
+      "agency":         "Agency",
+      "administration": "Administration"
+    },
+    "items": {
+      "dashboard":       "Dashboard",
+      "businessProfile": "Business Profile",
+      "createAudit":     "Create Audit",
+      "auditProgress":   "Audit Progress",
+      "overview":        "Overview",
+      "voxSocial":       "VoxSocial",
+      "voxSEO":          "VoxSEO",
+      "voxAI":           "VoxAI Visibility",
+      "competitive":     "Competitive",
+      "journeyCRO":      "Journey & CRO",
+      "strategyBuilder": "Strategy Builder",
+      "roadmap":         "90-Day Roadmap",
+      "proposals":       "Proposals",
+      "agencyWorkspace": "Agency Workspace",
+      "branding":        "Brand & White Label",
+      "sharing":         "Sharing & Portal",
+      "team":            "Team & Roles",
+      "billing":         "Usage & Billing",
+      "integrations":    "Integrations",
+      "notifications":   "Notifications"
+    },
+    "collapse": "Collapse sidebar",
+    "expand":   "Expand sidebar"
+  },
+  "auth": {
+    "signIn":           "Sign in",
+    "signInGoogle":     "Continue with Google",
+    "signInEmail":      "Continue with email",
+    "email":            "Email address",
+    "password":         "Password",
+    "forgotPassword":   "Forgot password?",
+    "noAccount":        "Don't have an account?",
+    "signUp":           "Sign up",
+    "headline1":        "Audit.",
+    "headline2":        "Optimize.",
+    "headline3":        "Rank Higher.",
+    "pitch":            "AI-Powered Growth Intelligence for agencies and ambitious businesses.",
+    "terms":            "Terms of Service",
+    "privacy":          "Privacy Policy",
+    "termsNote":        "By signing in you agree to our",
+    "and":              "and",
+    "error": {
+      "invalidCredentials": "Invalid email or password. Please try again.",
+      "inviteExpired":      "This invite link has expired. Ask your admin to resend it.",
+      "ssoFailed":          "Single sign-on failed. Please try again or use email.",
+      "generic":            "Something went wrong. Please try again."
+    }
+  },
+  "dashboard": {
+    "title":          "Dashboard",
+    "welcome":        "Welcome back, {{name}}",
+    "lastAudit":      "Last audit",
+    "noAuditYet":     "No audits run yet",
+    "runFirstAudit":  "Run your first audit",
+    "emptyHeadline":  "Your intelligence hub is ready",
+    "emptyBody":      "Run a Complete Growth Intelligence Audit to populate your dashboard with findings, scores, and recommendations.",
+    "kpi": {
+      "overallScore":     "Overall Score",
+      "overallScoreDef":  "Weighted average across all four intelligence pillars for the latest audit run.",
+      "seoScore":         "VoxSEO Score",
+      "seoScoreDef":      "Technical and on-page SEO health score based on crawled findings.",
+      "socialScore":      "VoxSocial Score",
+      "socialScoreDef":   "Social media presence and engagement score from public data.",
+      "aiVisibility":     "AI Visibility",
+      "aiVisibilityDef":  "How often and how accurately this brand appears in AI assistant answers.",
+      "openFindings":     "Open Findings",
+      "openFindingsDef":  "Number of unresolved findings requiring action from the latest audit.",
+      "proposalsSent":    "Proposals Sent",
+      "proposalsSentDef": "Proposals sent to clients in the current billing period."
+    },
+    "period": {
+      "asOfLastAudit": "As of last audit",
+      "thisMonth":     "This month",
+      "last30Days":    "Last 30 days"
+    }
+  },
+  "evidence": {
+    "measured":    "Measured",
+    "connected":   "Connected",
+    "estimated":   "Estimated",
+    "ai":          "AI Interpretation",
+    "unavailable": "Unavailable"
+  },
+  "common": {
+    "loading":      "Loading…",
+    "retry":        "Retry",
+    "viewAll":      "View all",
+    "createAudit":  "Create New Audit",
+    "language":     "Language",
+    "english":      "English",
+    "arabic":       "Arabic",
+    "source":       "Source",
+    "date":         "Date",
+    "reason":       "Reason"
+  }
+}
+

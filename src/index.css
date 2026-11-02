@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+
+/* ─── VoxAudit Design Tokens ──────────────────────────────────── */
+:root {
+  /* Brand palette */
+  --color-brand-blue:    #0094ea;
+  --color-brand-magenta: #cf41b2;
+  --color-brand-cyan:    #00e5ff;
+  --color-brand-shell:   #0d0f1a;  /* near-black sidebar / topbar */
+  --color-brand-shell-2: #131626;  /* slightly lighter shell surface */
+  --color-brand-border:  #1e2235;  /* shell border */
+
+  /* Analysis canvas */
+  --color-canvas-bg:    #f5f6f8;   /* off-white page background */
+  --color-canvas-card:  #ffffff;
+  --color-canvas-border: #e4e7ec; /* 1px neutral card borders */
+
+  /* Status – tuned to 4.5:1 on white */
+  --color-status-good:     #1a7f4f;
+  --color-status-watch:    #a85a00;
+  --color-status-critical: #c0392b;
+  --color-status-good-bg:     #e9f7f0;
+  --color-status-watch-bg:    #fff3e0;
+  --color-status-critical-bg: #fde9e8;
+
+  /* Neutral gray scale */
+  --color-neutral-50:  #f9fafb;
+  --color-neutral-100: #f3f4f6;
+  --color-neutral-200: #e5e7eb;
+  --color-neutral-300: #d1d5db;
+  --color-neutral-400: #9ca3af;
+  --color-neutral-500: #6b7280;
+  --color-neutral-600: #4b5563;
+  --color-neutral-700: #374151;
+  --color-neutral-800: #1f2937;
+  --color-neutral-900: #111827;
+
+  /* Typography */
+  --font-ui:      'Inter', sans-serif;
+  --font-display: 'Montserrat', sans-serif;
+  --font-arabic:  'IBM Plex Sans Arabic', sans-serif;
+
+  /* Spacing grid */
+  --spacing-base: 8px;
+
+  /* Sidebar widths */
+  --sidebar-expanded: 248px;
+  --sidebar-collapsed: 72px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+}
+
+/* ─── Base Resets ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { font-family: var(--font-ui); font-size: 16px; }
+body { margin: 0; background: var(--color-canvas-bg); color: var(--color-neutral-900); }
+
+/* Arabic locale: switch to IBM Plex Sans Arabic + enable RTL */
+html[lang="ar"] {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Tabular numerals for all metrics */
+.metric, [data-metric] { font-variant-numeric: tabular-nums; }
+
+/* ─── Logical property helpers ────────────────────────────────── */
+/* Sidebar transition uses logical inset to support LTR + RTL */
+.sidebar-transition { transition: inline-size var(--transition-base); }
+
+/* ─── Score band colors ───────────────────────────────────────── */
+.band-critical { color: var(--color-status-critical); }
+.band-watch    { color: var(--color-status-watch); }
+.band-solid    { color: var(--color-brand-blue); }
+.band-strong   { color: var(--color-status-good); }
+
+/* ─── Evidence fill patterns ──────────────────────────────────── */
+.fill-estimated {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 4px,
+    rgba(0,0,0,.08) 4px,
+    rgba(0,0,0,.08) 5px
+  );
+}
+
+/* ─── Sample data banner ──────────────────────────────────────── */
+.sample-banner {
+  background: #fffbea;
+  border-block-end: 1px solid #f0c040;
+  color: #7a5800;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 6px 16px;
+  text-align: center;
+}

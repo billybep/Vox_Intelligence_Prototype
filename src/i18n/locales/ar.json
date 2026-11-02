@@ -1,0 +1,112 @@
+{
+  "app": {
+    "name": "VoxAudit Intelligence",
+    "tagline": "دقّق. حسّن. انمُ.",
+    "sampleBanner": "بيانات تجريبية — Cedar & Co. Dental · عمّان وفيرفاكس"
+  },
+  "nav": {
+    "groups": {
+      "workspace":      "مساحة العمل",
+      "intelligence":   "الذكاء",
+      "growth":         "النمو",
+      "agency":         "الوكالة",
+      "administration": "الإدارة"
+    },
+    "items": {
+      "dashboard":       "لوحة التحكم",
+      "businessProfile": "ملف الأعمال",
+      "createAudit":     "إنشاء تدقيق",
+      "auditProgress":   "مركز التدقيق",
+      "overview":        "نظرة عامة",
+      "voxSocial":       "VoxSocial",
+      "voxSEO":          "VoxSEO",
+      "voxAI":           "رؤية VoxAI",
+      "competitive":     "التحليل التنافسي",
+      "journeyCRO":      "رحلة العميل والتحويل",
+      "strategyBuilder": "منشئ الاستراتيجية",
+      "roadmap":         "خارطة 90 يومًا",
+      "proposals":       "العروض",
+      "agencyWorkspace": "مساحة الوكالة",
+      "branding":        "العلامة والتصميم",
+      "sharing":         "المشاركة والبوابة",
+      "team":            "الفريق والصلاحيات",
+      "billing":         "الاستخدام والفوترة",
+      "integrations":    "التكاملات",
+      "notifications":   "الإشعارات"
+    },
+    "collapse": "طيّ الشريط الجانبي",
+    "expand":   "توسيع الشريط الجانبي"
+  },
+  "auth": {
+    "signIn":           "تسجيل الدخول",
+    "signInGoogle":     "المتابعة عبر Google",
+    "signInEmail":      "المتابعة عبر البريد الإلكتروني",
+    "email":            "البريد الإلكتروني",
+    "password":         "كلمة المرور",
+    "forgotPassword":   "نسيت كلمة المرور؟",
+    "noAccount":        "ليس لديك حساب؟",
+    "signUp":           "إنشاء حساب",
+    "headline1":        "دقّق.",
+    "headline2":        "حسّن.",
+    "headline3":        "ارتقِ في التصنيفات.",
+    "pitch":            "ذكاء نمو مدعوم بالذكاء الاصطناعي للوكالات والشركات الطموحة.",
+    "terms":            "شروط الخدمة",
+    "privacy":          "سياسة الخصوصية",
+    "termsNote":        "بالدخول، فأنت توافق على",
+    "and":              "و",
+    "error": {
+      "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة. يرجى المحاولة مرة أخرى.",
+      "inviteExpired":      "انتهت صلاحية رابط الدعوة. اطلب من المسؤول إعادة الإرسال.",
+      "ssoFailed":          "فشل تسجيل الدخول الموحد. حاول مجددًا أو استخدم البريد الإلكتروني.",
+      "generic":            "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "dashboard": {
+    "title":         "لوحة التحكم",
+    "welcome":       "أهلاً بعودتك، {{name}}",
+    "lastAudit":     "آخر تدقيق",
+    "noAuditYet":    "لم يتم تشغيل أي تدقيق بعد",
+    "runFirstAudit": "شغّل أول تدقيق",
+    "emptyHeadline": "مركز الذكاء جاهز",
+    "emptyBody":     "شغّل تدقيقًا شاملاً لذكاء النمو لملء لوحة التحكم بالنتائج والدرجات والتوصيات.",
+    "kpi": {
+      "overallScore":     "الدرجة الإجمالية",
+      "overallScoreDef":  "متوسط موزون عبر الأعمدة الأربعة لأحدث تدقيق.",
+      "seoScore":         "درجة VoxSEO",
+      "seoScoreDef":      "درجة صحة تحسين محركات البحث التقني والمحتوى بناءً على النتائج المستخرجة.",
+      "socialScore":      "درجة VoxSocial",
+      "socialScoreDef":   "درجة الحضور والتفاعل على وسائل التواصل من البيانات العامة.",
+      "aiVisibility":     "رؤية الذكاء الاصطناعي",
+      "aiVisibilityDef":  "مدى ظهور العلامة التجارية ودقتها في إجابات مساعدي الذكاء الاصطناعي.",
+      "openFindings":     "النتائج المفتوحة",
+      "openFindingsDef":  "عدد النتائج غير المحلولة التي تتطلب إجراءً من أحدث تدقيق.",
+      "proposalsSent":    "العروض المرسلة",
+      "proposalsSentDef": "العروض المرسلة للعملاء في فترة الفوترة الحالية."
+    },
+    "period": {
+      "asOfLastAudit": "حتى آخر تدقيق",
+      "thisMonth":     "هذا الشهر",
+      "last30Days":    "آخر 30 يومًا"
+    }
+  },
+  "evidence": {
+    "measured":    "مقاس",
+    "connected":   "متصل",
+    "estimated":   "مقدّر",
+    "ai":          "تفسير ذكاء اصطناعي",
+    "unavailable": "غير متاح"
+  },
+  "common": {
+    "loading":     "جارٍ التحميل…",
+    "retry":       "إعادة المحاولة",
+    "viewAll":     "عرض الكل",
+    "createAudit": "إنشاء تدقيق جديد",
+    "language":    "اللغة",
+    "english":     "الإنجليزية",
+    "arabic":      "العربية",
+    "source":      "المصدر",
+    "date":        "التاريخ",
+    "reason":      "السبب"
+  }
+}
+
